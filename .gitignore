@@ -1,0 +1,55 @@
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+~*
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE Files
+.vscode/
+.idea/
+
+# Office Documents
+*.docx
+*.pdf
+
+# Plagiarism Reports
+PLAGIARISM_REPORT.*
+PlagerismReports/
+
+# Review Reports
+STRICT_REVIEW*
+DATA_AUDIT_REPORT.md
+
+# Upload Instructions
+GOOGLE_DOCS_UPLOAD.md
+
+# Generated Deliverables
+EXTENDED_ABSTRACT.docx
+VIVA_SUMMARY_REPORT.docx
+
+# Ignore git metadata backups
+*.bak
+*.old
+
+# Plagiarism tools
+plagiarism_check.py
+build_plag_report.py
+
+# Presentation generation
+build_presentation.py
+
+# Abstract/Viva generators
+build_abstract.py
+build_abstract_docx.py
+build_viva_docx.py
+
+# Word document generators
+build_docx.py

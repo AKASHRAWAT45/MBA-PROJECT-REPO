@@ -1,0 +1,4 @@
+finding_id,source_id,category,finding_text,bank_name
+1,6,challenge,Insufficient internal AI expertise cited as top GenAI implementation barrier in banking (EY-Parthenon),
+2,7,challenge,Banks spend ~$600B on technology annually yet productivity remains uneven due to legacy fragmentation,
+3,3,trend,Large Indian banks focus on enterprise GenAI; mid-sized banks on orchestration layers,
