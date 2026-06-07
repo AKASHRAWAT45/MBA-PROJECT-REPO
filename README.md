@@ -1,8 +1,6 @@
 # MBA Major Project – Submission Package
 
-**Student:** Akash Rawat | **Enrollment:** A9920124013426(el)  
-**Topic:** Artificial Intelligence and Automation in Banking Operations Management  
-**Mentor:** Madhva Raj Pratinidhi | **Partner:** Adhiita Consultancy Services, Noida
+**Student:** Akash Rawat |
 
 ---
 
@@ -11,12 +9,9 @@
 | File / Folder | Purpose |
 |---------------|---------|
 | `PROJECT_REPORT.docx` | **Google Docs upload** – main report (Word format) |
-| `EXTENDED_ABSTRACT.docx` | Abstract for separate submission |
-| `GOOGLE_DOCS_UPLOAD.md` | Step-by-step Google Docs instructions |
-| `PLAGIARISM_REPORT.txt` | Plagiarism analysis summary (~0–3% estimated) |
-| `content/viva_part1.md` | 5 viva descriptive answers |
-| `content/guide_resume.md` | Mentor resume + certification template |
-| `content/abstract.md` | Abstract source text |
+| `EXTENDED_ABSTRACT.docx` | Abstract for separate submission(not synced here) |
+| `GOOGLE_DOCS_UPLOAD.md` | Step-by-step Google Docs instructions (not synced here)|
+| `PLAGIARISM_REPORT.txt` | Plagiarism analysis summary (~0–10% estimated) |
 | `charts/` | 7 figures (PNG) embedded in report |
 | `generate_charts.py` | Regenerate charts if needed |
 | `build_report.py` | Rebuild HTML from chapter markdown |
@@ -85,9 +80,4 @@ python3 build_abstract.py   # if present
 - **Title length:** 8 words (within 12-word limit).
 - **Word count:** Target 15,000–30,000 words met.
 
----
 
-## Support
-
-- Qollabb: 08040138089 | info@qollabb.com
-- WhatsApp: 08040138089 / 9599821232
