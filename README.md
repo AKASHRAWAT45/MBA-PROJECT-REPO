@@ -1,83 +1,84 @@
-# MBA Major Project – Submission Package
+# MBA Major Project Repository
 
-**Student:** Akash Rawat |
+## Project Title
 
----
+AI Adoption in Banking Operations: Impact on Efficiency, Service Quality, and Operational Performance
 
-## Folder Contents
-
-| File / Folder | Purpose |
-|---------------|---------|
-| `PROJECT_REPORT.docx` | **Google Docs upload** – main report (Word format) |
-| `EXTENDED_ABSTRACT.docx` | Abstract for separate submission(not synced here) |
-| `GOOGLE_DOCS_UPLOAD.md` | Step-by-step Google Docs instructions (not synced here)|
-| `PLAGIARISM_REPORT.txt` | Plagiarism analysis summary (~0–10% estimated) |
-| `charts/` | 7 figures (PNG) embedded in report |
-| `generate_charts.py` | Regenerate charts if needed |
-| `build_report.py` | Rebuild HTML from chapter markdown |
+**Student:** Akash Rawat
 
 ---
 
-## How to Open in Google Docs (Recommended)
+## Project Overview
 
-1. Go to [Google Drive](https://drive.google.com)
-2. Upload **`PROJECT_REPORT.docx`**
-3. Right-click → **Open with → Google Docs**
-4. When satisfied, **File → Download → PDF** for Qollabb
+This repository contains the source materials, datasets, charts, and generated report for an MBA major project focused on the adoption of Artificial Intelligence in banking operations.
 
-See **`GOOGLE_DOCS_UPLOAD.md`** for full instructions.
-
-## Alternative: PDF from Browser
-
-1. Open `PROJECT_REPORT.html` in Chrome
-2. Press **Cmd+P** → Save as PDF
-3. Turn **Background graphics ON** (for charts)
+The study examines how AI technologies influence operational efficiency, customer service quality, process automation, decision-making, and overall banking performance.
 
 ---
 
-## Formatting Checklist (Amity / Qollabb)
+## Repository Structure
 
-- [x] Title page, Declaration, TOC, List of Tables, List of Figures
-- [x] Chapters 1–6 + References + Appendix
-- [x] Times New Roman 12pt, double spacing (CSS line-height: 2)
-- [x] APA-style references (Chapter 7)
-- [x] Running head on pages
-- [x] 9 figures + 8 tables
-- [x] ~20,000 words (main chapters)
-- [x] American spellings (organize, center, recognize)
-- [ ] **Your signature** on Declaration (add in Word/PDF editor)
-- [ ] **Mentor signed certificate** (scan from guide)
-- [ ] **Plagiarism report** ≥85% originality (run through Turnitin/URKUND as required)
+### Reports
 
----
+* `PROJECT_REPORT.html` – Final project report in HTML format.
 
-## Qollabb Submission Steps
+### Presentation
 
-1. **Abstract + Guide Resume** – upload `EXTENDED_ABSTRACT.html` (as PDF) and signed `guide_resume`
-2. **Final Report PDF** – upload `PROJECT_REPORT.pdf`
-3. **Plagiarism Report** – must show ≤15% similarity
-4. **Viva Part 1** – copy answers from `content/viva_part1.md` into Qollabb form
-5. **Viva Part 2** – complete “Acing Your Interview” on Amigo LMS
+* `Akash_PROJECT_PRESENTATION.pptx` – Project presentation.
 
----
+### Source Content
 
-## Rebuild Report (if editing chapters)
+* `content/` – Chapter-wise project content and references.
 
-```bash
-cd akash-mba-ai-banking-project
-export MPLBACKEND=Agg
-python3 generate_charts.py
-python3 build_report.py
-python3 build_abstract.py   # if present
-```
+### Data
+
+* `data/` – Research datasets and supporting data files.
+
+### Charts and Figures
+
+* `charts/` – Project figures and visualizations used in the report.
+
+### Scripts
+
+* `generate_charts.py` – Generates charts used in the report.
+* `build_report.py` – Builds the final report from source content.
 
 ---
 
-## Important Notes
+## Key Areas Covered
 
-- **Originality:** Content is original synthesis for academic submission. Run your institution’s plagiarism checker before final upload.
-- **Mentor name:** Madhva Raj Pratinidhi – confirm spelling with Qollabb dashboard.
-- **Title length:** 8 words (within 12-word limit).
-- **Word count:** Target 15,000–30,000 words met.
+* Artificial Intelligence in Banking
+* Operational Efficiency
+* Process Automation
+* Customer Experience Enhancement
+* Risk Management and Compliance
+* Banking Technology Adoption
+* Future Trends in AI-driven Banking
 
+---
 
+## Technologies Used
+
+* Python
+* Markdown
+* HTML
+* Data Visualization
+* Research and Statistical Analysis
+
+---
+
+## Project Deliverables
+
+* Final Project Report
+* Presentation Slides
+* Research Data
+* Charts and Visualizations
+* Source Content
+
+---
+
+## Author
+
+Akash Rawat
+
+MBA Major Project
